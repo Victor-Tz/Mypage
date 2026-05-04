@@ -1,0 +1,12 @@
+a {text-decoration: none;}
+a:link{color: navy;}
+a:visited {color: gray;}
+a:hover{color:cyan;}
+a:focus {color:darkorchid;
+         outline:darkcyan;}
+a:active{color: yellow;}
+
+body{ background: indianred;}
+.box{background: ivory;
+     border-radius:10px;
+outline: 1px solid gray;}

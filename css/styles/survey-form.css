@@ -1,0 +1,13 @@
+
+.block > label{	display:	block;	
+		margin:		3px 0px;
+		padding:	2px 0px;	}
+
+legend {	margin-bottom:	5px;
+		padding-bottom:	5px;		}
+
+textarea {	margin-left:	5px;
+		padding-left:	5px;		}
+
+button {	margin:		2px;
+		padding-left:	3px;}

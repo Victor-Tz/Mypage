@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Survey Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Survey Form</title>
+	<link rel="stylesheet" href="/css/styles/survey-form.css">
   </head>
   <body>
     <header>
@@ -13,23 +15,22 @@
     </header>
     <main>
       <form method="POST" action="" id="survey-form">
-        <fieldset>
+        <fieldset  class="block">
           <legend>General Information</legend>
-          <label for="name" id="name-label">Name (required):</label>
+          <label for="name" id="name-label" >Name (required):</label>
           <input type="text" id="name" name="name" placeholder="e.g., John Doe" required size="20">
 
-          <label for="email" id="email-label">Email address (optional):</label>
+          <label for="email" id="email-label" >Email address (optional):</label>
           <input
             placeholder="example@email.com"
             id="email"
             type="email"
             name="email"
-            size="20"
-          />
-          <label for="number" id="number-label">Age (optional):</label>
-          <input type="number" name="age" id="number" min="3" max="100" placeholder="18" />
-          <label for="organization" id="organization-label">Organization (optional):</label>
-          <input type="text" id="organization" name="organization" placeholder="e.g., Google" size="20">
+            size="20" >
+          <label for="number" id="number-label" >Age (optional):</label>
+          <input type="number" name="age" id="number" min="3" max="100" placeholder="18"/>
+          <label for="organization" id="organization-label" >Organization (optional):</label>
+          <input type="text" id="organization" name="organization" placeholder="e.g., Google" size="20" >
 
         </fieldset>
 
@@ -66,7 +67,7 @@
             name="choice"
             value="about-me"
           />
-          <label for="about-me">about-me</label>
+          <label for="about-me">about</label>
          
         </fieldset>
 
@@ -84,9 +85,9 @@
           </select>
         </fieldset>
         <fieldset>
-        <label for="feedback">Feedback</label>
-        <textarea cols="30" rows="10" name="comments" id="comments"></textarea>
-</fieldset>
+	<legend>Feedback</legend>
+        	<textarea cols="30" rows="10" name="comments" ></textarea>
+	</fieldset>
 <button id="submit">Submit</button>
           </form>
     </main>

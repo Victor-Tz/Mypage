@@ -3,7 +3,7 @@
 
 header {	background: 	white;		}
 
-h1 {		margin-left:	5px		}
+h1 {		margin:	15px 0px 0px 5px;	}
 
 #top-bar {	background:	black;		}
 
@@ -29,8 +29,23 @@ body 	{	background:	white;		}
 main {		margin:		5px;
 		padding:	5px;		}
 
+h3 {		margin-left:	5px;
+		padding-left:	5px		}
+
 p {		margin: 	0px 5px 5px 5px;		
 		padding:	0px 5px 5px 5px;}
+/*INDEX*/
+.callout-box {
+    		background-color:#fff3cd;
+		border-left: 	5px solid #ffc107;
+		padding: 	15px;
+	 	margin: 	20px 0;
+		font-size:	16px;		}
+/*ABOUT*/
+.box {
+		background-color:lightgrey;
+		border-radius:	7px;
+		padding:	5px 0;		}
 
 /*FOOTER*/
 footer {	background:	black;

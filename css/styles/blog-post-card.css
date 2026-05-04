@@ -1,0 +1,29 @@
+body {background:darkcyan;}
+
+.blog-post-card{ background:white;
+border-radius: 10px;
+width: 350px;
+max-width:560;
+text-align: left;
+padding-bottom:4px;}
+
+.post-content{padding:1px;}
+
+.post-img{width: 100%;
+border-bottom: 2px solid darkcyan;}
+
+.post-title,.post-excerpt{ margin: 5px;
+color:darkcyan;}
+
+.read-more {color:white;
+background: lightslategray;
+margin:4px 4px 1px;
+padding:1px 2px;
+border-radius:7px;}
+
+.read-more:link{text-decoration: none;}
+.read-more:hover{ color:white;
+                  background:darkcyan;}
+
+.read-more {
+                  display:inline-block;}
