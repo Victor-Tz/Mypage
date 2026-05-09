@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+<link rel=stylesheet href=/css/styles/job-application-form.css>
+</head>
+<body>
+<h1>My awesome company.</h1>
+<p>complete the form below to start your journey on the best company ever.</p>
+<div class=container><form>
+<fieldset>
+<legend>Personal Information</legend>
+<label for=name class="block">Name: </label>
+<input type=text id=name required>
+<label for=email class="block">Email: </label>
+<input type=email id=email>
+</fieldset>
+<fieldset>
+<legend>Desired possition: </legend>
+<select id=position>
+<option>HR manager</option>
+<option>Back End dev</option>
+<option>Front End dev</option>
+<option>IT security</option>
+</select>
+</fieldset>
+<fieldset class=radio-group>
+<legend>Desired Shift</legend>
+<input type=radio name=availability id=option-1>
+<label for=option-1>Morning shift</label>
+<input type=radio name=availability id=option-2>
+<label for=option-2>Night shift</label>
+<input type=radio name=availability id=option-3>
+<label for=option-3>Graveyard</label>
+<input type=radio name=availability id=option-4>
+<label for=option-4>Any</label>
+</fieldset>
+<fieldset>
+<legend>Additional Information.</legend>
+<textarea id=message placeholder="..."></textarea>
+<button type=submit>Submit</button>
+</fieldset>
+</form></div>
+
+</body>
+</html>
